@@ -7,6 +7,7 @@ return(
         <a href="#">About</a>
         <a href="#">Projects</a>
     </div>
+
 )
 }
 export default nav
