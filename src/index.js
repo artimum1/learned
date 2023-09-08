@@ -1,10 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import "./app.css"
-import Nav from "./nav"
+import App from './App'
+
+
+
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-    <Nav />
+
+    <div>
+    <App />
+    </div>
 );

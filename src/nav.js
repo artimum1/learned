@@ -1,6 +1,6 @@
 import React from "react";
 
-function nav(){
+function Nav(){
 return(
     <div className="nav">
         <a href="#">Home</a>
@@ -10,4 +10,4 @@ return(
 
 )
 }
-export default nav
+export default Nav
