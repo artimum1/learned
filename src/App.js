@@ -19,21 +19,15 @@ useEffect(() => {
       });
   }, []);
 
-if(loading){
-  return(
-   <div> <Nav />
-    loading...</div>
-  )
-}
-else{
+
   return(
     <div>
         <Nav />
-        
+        {loading && <div>loading...</div>}
         {DATA && <Home content={DATA} />}
     </div>
 )
-}
+
 }
 
 export default App
