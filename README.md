@@ -10,7 +10,7 @@
 // also react might get you a job so learning it will be very helpful my NEXT step
 // is to learn NEXT JS which gives me more ideas and options
 
-// please visit my site here : [http://artimum.site](http://artimum.site/)http://artimum.site/
+// please visit my site here : [http://artimum.site](http://artimum.site/)
 
 // now its 2023/9/9 my site does not use react , but will update it
 // i will use NEXT JS which is a framework based on react to build it again 
