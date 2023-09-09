@@ -1,5 +1,4 @@
 # Artimum <br/>
-<br/>
 ![image](https://github.com/artimum1/Artimum/assets/120169609/d1b41b60-a3f8-4b7f-8a73-21677e1b70cd)
 
 <br/>
