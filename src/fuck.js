@@ -13,6 +13,7 @@ function dataFetch(url) {
     .catch((error) => {
       console.error('Fetch error:', error);
     });
+
 }
 
 export default dataFetch;

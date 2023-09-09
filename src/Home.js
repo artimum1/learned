@@ -5,7 +5,7 @@ function Home(props){
     let content = props.content
  
         return(
-            <div>
+            <div className="content">
                 
             <HomeContent content={content} />
             </div>

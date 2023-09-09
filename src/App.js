@@ -1,7 +1,11 @@
 import React, { useEffect, useState } from "react";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import dataFetch from "./fuck.js";
-import Nav from './Nav';
-import Home from './Home';
+import Nav from './Nav.js';
+import Home from './Home.js';
+import About from "./About.js";
+import Projects from "./Projects.js";
+
 
 function App(){
 
@@ -21,11 +25,25 @@ useEffect(() => {
 
 
   return(
+    <Router>
     <div>
         <Nav />
+    <div className="MAIN">
+        <Switch>
+          <Route exact path="/">
         {loading && <div>loading...</div>}
         {DATA && <Home content={DATA} />}
+        </Route>
+        <Route exact path="/About">
+            <About />
+        </Route>
+        <Route exact path="/Projects">
+            <Projects />
+        </Route>
+        </Switch>
+        </div>
     </div>
+    </Router>
 )
 
 }

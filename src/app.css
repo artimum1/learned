@@ -13,6 +13,10 @@ body,html{
 body{
     background-color: black;
 }
+.MAIN{
+    width: 100% !important;
+    height: 100vh !important;
+}
 a{
     color: white;
     text-decoration: none;
