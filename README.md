@@ -1,7 +1,6 @@
 # Artimum <br/>
 <br/>
 ![image](https://github.com/artimum1/Artimum/assets/120169609/f88c5622-56e7-4309-b994-1ba8608703d7 )
-<br/>
 // this is a repo of my learning react js , i watch the net ninja free course on youtube <br/>
 // here is a link :https://www.youtube.com/watch?v=j942wKiXFu8&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d <br/>
 // i'm learning react to build more stable apps and more stable portfolio <br/>
